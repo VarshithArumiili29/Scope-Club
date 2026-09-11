@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SCOPE Club — Student Cloud &amp; Programming Enthusiasts</title>
+    <meta
+      name="description"
+      content="SCOPE Club is a student community for cloud computing, programming, and tech events. Explore what we do, upcoming events like Zenith and AWS Cloud Trek, and learning resources."
+    />
+    <meta name="theme-color" content="#0b1220" />
+    <link rel="icon" href="assets/scope-logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#home">Skip to content</a>
+
+    <!-- ============ HEADER / NAV ============ -->
+    <header class="site-header" id="siteHeader">
+      <nav class="nav container" aria-label="Primary">
+        <a class="brand" href="#home" aria-label="SCOPE Club home">
+          <img src="assets/scope-logo.png" alt="SCOPE Club logo" class="brand-logo" />
+          <span class="brand-name">SCOPE<span class="brand-dot">.</span>Club</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-expanded="false"
+          aria-controls="navMenu"
+          aria-label="Toggle navigation menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Inside SCOPE</a></li>
+          <li><a href="#what-we-do">What We Do</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="nav-theme">
+            <button id="themeToggle" class="theme-toggle" aria-label="Switch color theme">
+              <span class="theme-icon" aria-hidden="true"></span>
+              <span class="theme-label">Dark</span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ============ HOME / HERO ============ -->
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Student Cloud &amp; Programming Enthusiasts</span>
+            <h1 class="hero-title text-balance">
+              Where curious students build in the <span class="accent">cloud</span>.
+            </h1>
+            <p class="hero-lead text-pretty">
+              SCOPE Club is a community of learners exploring cloud computing, programming, and
+              modern tech. We host workshops, hackathons, and hands-on events that turn ideas into
+              deployed projects.
+            </p>
+            <div class="hero-actions">
+              <a href="#events" class="btn btn-primary">Explore Events</a>
+              <a href="#about" class="btn btn-ghost">Learn About Us</a>
+            </div>
+            <dl class="hero-stats">
+              <div><dt>250+</dt><dd>Members</dd></div>
+              <div><dt>30+</dt><dd>Events hosted</dd></div>
+              <div><dt>12</dt><dd>Workshops / year</dd></div>
+            </dl>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <img src="assets/scope-logo.png" alt="" class="hero-logo" />
+            <div class="orbit orbit-1"></div>
+            <div class="orbit orbit-2"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ ABOUT / INSIDE SCOPE ============ -->
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow">Inside SCOPE</span>
+            <h2 class="text-balance">Who we are</h2>
+          </div>
+          <div class="about-grid">
+            <p class="about-lead text-pretty">
+              SCOPE Club brings together students who are passionate about technology — from
+              first-time coders to cloud practitioners. We believe the best way to learn is by
+              building together, sharing knowledge, and shipping real projects.
+            </p>
+            <div class="value-cards">
+              <article class="value-card">
+                <h3>Our Mission</h3>
+                <p>Make cloud and programming skills accessible through hands-on, peer-led learning.</p>
+              </article>
+              <article class="value-card">
+                <h3>Our Vision</h3>
+                <p>A campus where every student can confidently design, build, and deploy in the cloud.</p>
+              </article>
+              <article class="value-card">
+                <h3>Our Community</h3>
+                <p>An inclusive, curious, and supportive network that grows through collaboration.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ WHAT WE DO ============ -->
+      <section class="section section-alt" id="what-we-do">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow">What We Do</span>
+            <h2 class="text-balance">Learn, build, and deploy</h2>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">&lt;/&gt;</div>
+              <h3>Workshops</h3>
+              <p>Hands-on sessions on programming, Git, web development, and problem solving.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">&#9729;</div>
+              <h3>Cloud Labs</h3>
+              <p>Practical AWS labs — hosting, storage, serverless, and deploying real apps.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">&#9889;</div>
+              <h3>Hackathons</h3>
+              <p>Build under pressure, ship a project, and learn to collaborate in teams.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">&#9733;</div>
+              <h3>Mentorship</h3>
+              <p>Guidance from seniors and alumni on projects, internships, and careers.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ EVENTS ============ -->
+      <section class="section" id="events">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow">Events</span>
+            <h2 class="text-balance">What&apos;s happening at SCOPE</h2>
+          </div>
+          <div class="events-grid">
+            <article class="event-card">
+              <div class="event-tag">Flagship</div>
+              <h3>Zenith</h3>
+              <p>Our annual tech summit featuring talks, competitions, and project showcases.</p>
+              <span class="event-meta">Annual &middot; Whole campus</span>
+            </article>
+            <article class="event-card">
+              <div class="event-tag">Workshop Series</div>
+              <h3>AWS Cloud Trek</h3>
+              <p>A guided journey through core AWS services with hands-on deployment labs.</p>
+              <span class="event-meta">Multi-week &middot; Beginner friendly</span>
+            </article>
+            <article class="event-card">
+              <div class="event-tag">Competition</div>
+              <h3>CodeSprint</h3>
+              <p>A fast-paced coding contest to sharpen algorithms and problem-solving skills.</p>
+              <span class="event-meta">Semester &middot; All levels</span>
+            </article>
+            <article class="event-card">
+              <div class="event-tag">Meetup</div>
+              <h3>Tech Talks</h3>
+              <p>Casual sessions where members and guests share what they&apos;re building.</p>
+              <span class="event-meta">Monthly &middot; Open to all</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ RESOURCES ============ -->
+      <section class="section section-alt" id="resources">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow">Resources</span>
+            <h2 class="text-balance">Level up your skills</h2>
+          </div>
+          <div class="resource-grid">
+            <a class="resource-card" href="https://aws.amazon.com/getting-started/" target="_blank" rel="noopener noreferrer">
+              <h3>AWS Getting Started</h3>
+              <p>Official guides and tutorials to begin your cloud journey.</p>
+              <span class="resource-link">Visit &rarr;</span>
+            </a>
+            <a class="resource-card" href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">
+              <h3>MDN Web Docs</h3>
+              <p>The go-to reference for HTML, CSS, and JavaScript.</p>
+              <span class="resource-link">Visit &rarr;</span>
+            </a>
+            <a class="resource-card" href="https://roadmap.sh/" target="_blank" rel="noopener noreferrer">
+              <h3>Developer Roadmaps</h3>
+              <p>Step-by-step paths to become a developer or cloud engineer.</p>
+              <span class="resource-link">Visit &rarr;</span>
+            </a>
+            <a class="resource-card" href="https://github.com/" target="_blank" rel="noopener noreferrer">
+              <h3>GitHub</h3>
+              <p>Host your code, collaborate, and build a portfolio.</p>
+              <span class="resource-link">Visit &rarr;</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ CONTACT ============ -->
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow">Contact</span>
+            <h2 class="text-balance">Get in touch</h2>
+          </div>
+          <div class="contact-grid">
+            <div class="contact-info">
+              <p class="text-pretty">
+                Want to join, collaborate, or invite us to an event? Reach out — we&apos;d love to
+                hear from you.
+              </p>
+              <ul class="contact-list">
+                <li><span>Email</span><a href="mailto:scope.club@example.edu">scope.club@example.edu</a></li>
+                <li><span>Location</span><span>Campus Innovation Lab, Block C</span></li>
+              </ul>
+              <div class="socials">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-btn">Instagram</a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn">LinkedIn</a>
+              </div>
+            </div>
+
+            <form class="contact-form" id="contactForm" novalidate>
+              <div class="field">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required autocomplete="name" />
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required autocomplete="email" />
+              </div>
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+              <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <img src="assets/scope-logo.png" alt="" class="footer-logo" aria-hidden="true" />
+          <span>SCOPE Club</span>
+        </div>
+        <p class="footer-copy">&copy; <span id="year"></span> SCOPE Club. Built by students, for students.</p>
+        <div class="footer-socials">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
